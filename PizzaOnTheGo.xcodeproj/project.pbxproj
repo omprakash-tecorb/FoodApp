@@ -14,6 +14,16 @@
 		181A7EBE291A31D00055A88B /* PizzaOnTheGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EBD291A31D00055A88B /* PizzaOnTheGoTests.swift */; };
 		181A7EC8291A31D00055A88B /* PizzaOnTheGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EC7291A31D00055A88B /* PizzaOnTheGoUITests.swift */; };
 		181A7ECA291A31D00055A88B /* PizzaOnTheGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EC9291A31D00055A88B /* PizzaOnTheGoUITestsLaunchTests.swift */; };
+		181A7ED9291A38AB0055A88B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7ED8291A38AB0055A88B /* WelcomeView.swift */; };
+		181A7EDB291A42980055A88B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EDA291A42980055A88B /* SignInView.swift */; };
+		181A7EE5291A43A70055A88B /* TextFieldCustome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EDD291A43A70055A88B /* TextFieldCustome.swift */; };
+		181A7EE6291A43A70055A88B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EDE291A43A70055A88B /* Model.swift */; };
+		181A7EE7291A43A70055A88B /* Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EDF291A43A70055A88B /* Navigate.swift */; };
+		181A7EE8291A43A70055A88B /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EE0291A43A70055A88B /* HexColor.swift */; };
+		181A7EE9291A43A70055A88B /* Cornersradious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EE1291A43A70055A88B /* Cornersradious.swift */; };
+		181A7EEA291A43A70055A88B /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EE2291A43A70055A88B /* Validation.swift */; };
+		181A7EEB291A43A70055A88B /* gallerypicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EE3291A43A70055A88B /* gallerypicker.swift */; };
+		181A7EEC291A43A70055A88B /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7EE4291A43A70055A88B /* BackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,17 @@
 		181A7EC3291A31D00055A88B /* PizzaOnTheGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaOnTheGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181A7EC7291A31D00055A88B /* PizzaOnTheGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOnTheGoUITests.swift; sourceTree = "<group>"; };
 		181A7EC9291A31D00055A88B /* PizzaOnTheGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOnTheGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		181A7ED6291A32D00055A88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		181A7ED8291A38AB0055A88B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		181A7EDA291A42980055A88B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		181A7EDD291A43A70055A88B /* TextFieldCustome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCustome.swift; sourceTree = "<group>"; };
+		181A7EDE291A43A70055A88B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		181A7EDF291A43A70055A88B /* Navigate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigate.swift; sourceTree = "<group>"; };
+		181A7EE0291A43A70055A88B /* HexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		181A7EE1291A43A70055A88B /* Cornersradious.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cornersradious.swift; sourceTree = "<group>"; };
+		181A7EE2291A43A70055A88B /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		181A7EE3291A43A70055A88B /* gallerypicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gallerypicker.swift; sourceTree = "<group>"; };
+		181A7EE4291A43A70055A88B /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +115,9 @@
 		181A7EAB291A31CD0055A88B /* PizzaOnTheGo */ = {
 			isa = PBXGroup;
 			children = (
+				181A7EDC291A43A70055A88B /* HelpingClass */,
+				181A7ED7291A38770055A88B /* PreLogin */,
+				181A7ED6291A32D00055A88B /* Info.plist */,
 				181A7EAC291A31CD0055A88B /* PizzaOnTheGoApp.swift */,
 				181A7EAE291A31CD0055A88B /* ContentView.swift */,
 				181A7EB0291A31D00055A88B /* Assets.xcassets */,
@@ -125,6 +149,30 @@
 				181A7EC9291A31D00055A88B /* PizzaOnTheGoUITestsLaunchTests.swift */,
 			);
 			path = PizzaOnTheGoUITests;
+			sourceTree = "<group>";
+		};
+		181A7ED7291A38770055A88B /* PreLogin */ = {
+			isa = PBXGroup;
+			children = (
+				181A7ED8291A38AB0055A88B /* WelcomeView.swift */,
+				181A7EDA291A42980055A88B /* SignInView.swift */,
+			);
+			path = PreLogin;
+			sourceTree = "<group>";
+		};
+		181A7EDC291A43A70055A88B /* HelpingClass */ = {
+			isa = PBXGroup;
+			children = (
+				181A7EDD291A43A70055A88B /* TextFieldCustome.swift */,
+				181A7EDE291A43A70055A88B /* Model.swift */,
+				181A7EDF291A43A70055A88B /* Navigate.swift */,
+				181A7EE0291A43A70055A88B /* HexColor.swift */,
+				181A7EE1291A43A70055A88B /* Cornersradious.swift */,
+				181A7EE2291A43A70055A88B /* Validation.swift */,
+				181A7EE3291A43A70055A88B /* gallerypicker.swift */,
+				181A7EE4291A43A70055A88B /* BackButton.swift */,
+			);
+			path = HelpingClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +305,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181A7EE9291A43A70055A88B /* Cornersradious.swift in Sources */,
+				181A7EEB291A43A70055A88B /* gallerypicker.swift in Sources */,
 				181A7EAF291A31CD0055A88B /* ContentView.swift in Sources */,
+				181A7EE5291A43A70055A88B /* TextFieldCustome.swift in Sources */,
+				181A7ED9291A38AB0055A88B /* WelcomeView.swift in Sources */,
+				181A7EE7291A43A70055A88B /* Navigate.swift in Sources */,
+				181A7EE6291A43A70055A88B /* Model.swift in Sources */,
+				181A7EE8291A43A70055A88B /* HexColor.swift in Sources */,
+				181A7EEC291A43A70055A88B /* BackButton.swift in Sources */,
+				181A7EDB291A42980055A88B /* SignInView.swift in Sources */,
+				181A7EEA291A43A70055A88B /* Validation.swift in Sources */,
 				181A7EAD291A31CD0055A88B /* PizzaOnTheGoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,9 +477,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PizzaOnTheGo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PizzaOnTheGo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,9 +506,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PizzaOnTheGo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PizzaOnTheGo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
